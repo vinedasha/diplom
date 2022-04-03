@@ -1,0 +1,18 @@
+call func.createlogin('rash', 'pass');
+call func.createach(3, 'Раша Рогатин Сергеевич');
+call func.creastud(3, 'Виноградова', '');
+call func.addoc(5, 'моенник', '');
+call func.updatelogin(1, 'dasha');
+call func.updatepassword(1, 'Passw');
+call func.updateachidlogin(2, 2);
+call func.updateachfio(2, 'Cаша Романовна Сергеевна' );
+call func.updateportfolfio(1, 'Бобр');
+call func.updateportfolphoto(1, '');
+call func.updatedocidstud(2, 2);
+call func.updatedocname(3, 'Билет');
+call func.updatedocdoc(3, '');
+call func.deleteteach(3);
+call func.deletestud(1);
+call func.deletestudphoto(2);
+call func.deletedoc(12);
+call func.deletedocstud(5);
