@@ -1,0 +1,11 @@
+delete from atr.login;
+truncate table atr.login restart identity cascade;
+delete from stud.teach;
+truncate table stud.teach restart identity cascade;
+delete from stud.portfol;
+delete from stud.con;
+truncate table stud.portfol restart identity cascade;
+delete from stud.doc;
+truncate table stud.doc restart identity cascade;
+delete from prot.protocol;
+truncate table prot.protocol restart identity cascade;
