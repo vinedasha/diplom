@@ -1,0 +1,1 @@
+SELECT id_doc FROM stud.achi ORDER BY id_doc DESC LIMIT 1
